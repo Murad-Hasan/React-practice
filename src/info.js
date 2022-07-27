@@ -42,3 +42,8 @@ console.log("b", b) // 10
 b = 20;
 console.log("b", b) // 20
 console.log('num',num) // 10;    
+
+
+
+
+//------> Design pattern in react - render props
