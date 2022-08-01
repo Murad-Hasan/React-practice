@@ -8,6 +8,8 @@ const About = () => {
   const [count, setCount] = useState(0);
   const [incrementValue, setIncrementValue] = useState(1);
   const [decrementValue, setDecrementValue] = useState(1);
+
+
   function increment() {
     setCount(count + incrementValue);
   }
@@ -17,10 +19,10 @@ const About = () => {
 
   function handleIncrementChange(e) {
     setIncrementValue(parseInt(e.target.value));
-    }
-function handleDecrementChange(e) {
-        setDecrementValue(parseInt(e.target.value));
-    }
+  }
+  function handleDecrementChange(e) {
+    setDecrementValue(parseInt(e.target.value));
+  }
 
   return (
     <Layout>
